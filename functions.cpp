@@ -80,7 +80,7 @@ void mnoz( int n, int m,int p, int** arr1, int** arr2)
                 fprintf(file, "\n");
             }
         }
-    zwolnij(res, p);
+    zwolnij(res, n);
     fclose(file);
 }
 
